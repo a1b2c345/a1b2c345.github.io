@@ -24,6 +24,9 @@ nav ul, footer ul {
 }
 
 h{
+    font-size: 4em;
+    text-align:center;
+    font-family:'Times New Roman', 'Times', 'Serif';
     color: #FFFFFF;
 }
 p {
