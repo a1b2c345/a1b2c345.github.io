@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: gray;
+    background-color: black;
 }
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
@@ -24,13 +24,12 @@ nav ul, footer ul {
 }
 
 h{
-    color: #FFFFFFF;
+    color: #FFFFFF;
 }
 p {
     color: #FFFFFF;
     font-size: 1em;
     line-height: 1.4em;
-    color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
