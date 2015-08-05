@@ -1,90 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Deacon Adam</title>
+		<title>AZB</title>
                 <!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">	</head>
 	<body>
 		
-		
-	<div class= "navigation" id="nav">
-    		<div class="item about">
-		<img src="bg_user.png" alt="" width="199" height="199" class="circle"/>
-		<a href="/about" class="icon"><h3>About</h3></a>
-		<p>A brief background about me</p>
-    		</div>
-    		<div class="item homilies">
-		<img src="bg_user.png" alt="" width="199" height="199" class="circle"/>
-		<a href="/homilies" class="icon"><h4>Homilies</h4></a>
-		<p>Audio clips from homilies I've given</p>
-    		</div>
-    		<div class="item ramblings">
-		<img src="bg_user.png" alt="" width="199" height="199" class="circle"/>
-		<a href="/ramblings" class="icon"><h5>Ramblings</h5></a>
-		<p>Things that come into my head</p>
-    		</div>
-    		<div class="item links">
-		<img src="bg_user.png" alt="" width="199" height="199" class="circle"/>
-		<a href="/links" class="icon"><h6>Links</h6></a>
-		<p>Other things I find interesting</p>
-    		</div>
-    		<div class="item schedule">
-		<img src="bg_user.png" alt="" width="199" height="199" class="circle"/>
-		<a href="/schedule" class="icon"><h7>Schedule</h7></a>
-		<p>Upcoming services</p>
-    		</div>
-    		<div class="item contact">
-		<img src="bg_user.png" alt="" width="199" height="199" class="circle"/>
-		<a href="/contact" class="icon"><h8>Contact</h8></a>
-		<p>How to get in touch with me</p>
-    		</div>
-
-    		
-    		</div>
 		<div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Deacon Adam!</h1>
-				<p>I say things and put them here updated. <a href="/about">Read more about my life...</a></p>
+        		<h1>WELCOME</h1>
+				<p>WERE COOL</p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
     		<ul>
 			</ul>
 		</footer>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.easing.1.3.js"></script>
-<script type="text/javascript">
-	$(function() {
-		$('#nav > div').hover(
-		function () {
-			var $this = $(this);
-			$this.find('img').stop().animate({
-				'width'     :'199px',
-				'height'    :'199px',
-				'top'       :'-25px',
-				'left'      :'-60px',
-				'opacity'   :'1.0'
-			},500,'easeOutBack',function(){
-				$(this).parent().find('p').fadeIn(700);
-			});
-
-			$this.find('a:first,h2').addClass('active');
-		},
-		function () {
-			var $this = $(this);
-			$this.find('p').fadeOut(500);
-			$this.find('img').stop().animate({
-				'width'     :'130px',
-				'height'    :'130px',
-				'top'       :'-10px',
-				'left'      :'-5px',
-				'opacity'   :'0.4'
-			},5000,'easeOutBack');
-
-			$this.find('a:first,h2').removeClass('active');
-		}
-	);
-	});
-</script>
 	</body>
 </html>
