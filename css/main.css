@@ -1,0 +1,239 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-image: url("bridge.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+nav ul, footer ul {
+    font-family:'Times New Roman', 'Times', 'Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+.navigation{
+    color:gray;
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+
+.navigation .item{
+    position:absolute;
+}
+.item p{
+    list-style:none;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    position:absolute;
+    top:45px;
+    left:-15px;
+    width: 150px;
+    font-size:15px;
+    display:none;
+    text-align:center;
+}
+.item p a{
+    font-size:1px;
+    text-decoration:none;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#222;
+    padding:3px;
+    float:left;
+    clear:both;
+    width:300px;
+    text-shadow:1px 1px 1px #fff;
+}
+.item p a:hover{
+    background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}
+
+
+.about{
+    top:220px;
+    left:320px;
+}
+
+.homilies{
+    top:220px;
+    left:620px;
+}
+
+.ramblings{
+    top:220px;
+    left:920px;
+}
+
+.schedule{
+    top:390px;
+    left:170px;
+}
+
+.links{
+    top:390px;
+    left:470px;
+}
+
+.contact{
+    top:390px;
+    left:770px;
+}
+
+.navigation .item a.active{
+    background-position:0px -52px;
+}
+.item img.circle{
+    position:absolute;
+    top:-10px;
+    left:-5px;
+    width:130px;
+    height:130px;
+    opacity:0.4;
+}
+
+.item h3{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-15px;
+    left:5px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h4{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-20px;
+    left:-5px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h5{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h6{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h7{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h8{
+    position:absolute;
+    width:300px;
+    height:52px;
+    color:#222;
+    font-size:25px;
+    top:-10px;
+    left:10px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+
+.item h3.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h4.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h5.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h6.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h7.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+.item h8.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    color: white;
+    font-size: 3em;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+p {
+    color: white;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
