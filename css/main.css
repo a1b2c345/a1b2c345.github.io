@@ -23,9 +23,11 @@ nav ul, footer ul {
     position:absolute;
 }
 
-
+h{
+    color: white;
+}
 p {
-    color: black;
+    color: white;
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
