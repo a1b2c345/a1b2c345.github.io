@@ -50,6 +50,11 @@ text-shadow: 0px 2px 3px #707070;
     line-height: 1.4em;
 }
 
+footer{
+    color: white;
+    
+}
+
 
 ul.posts { 
     margin: 20px auto 40px; 
