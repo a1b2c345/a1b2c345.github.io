@@ -40,9 +40,10 @@ h{
  0 20px 20px rgba(0,0,0,.15);
 }
 
-}
+
 p {
-    color: #FFFFFF;
+    color: #222;
+text-shadow: 0px 2px 3px #555;
     font-size: 1em;
     line-height: 1.4em;
 }
