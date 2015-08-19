@@ -14,23 +14,60 @@
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
-
-
-	<form action="http://submit.form" id="NewsletterSubscription100" method="post" onsubmit="return ValidateForm(this);">
-	<script type="text/javascript">
-	function ValidateForm(frm) {if frm.FromEmailAddress.focus(); return false; } if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-return true; }
-</script>
-<table border="2" cellpadding="5" cellspacing="0" color: white; style="width: 360px; margin: auto; text-align: center;">
-<tr> <td>
-<label for="FromEmailAddress"> curious? </label><br />
-<input name="FromEmailAddress" type="text" maxlength="60" style="width: 340px;" />
-</td> </tr> <tr> <td align="center">
-<script src="http://www.100forms.com/js/FORMKEY:YNSCQKKEJAP2/SEND:lindseycurtis2016@gmail.com" type="text/javascript"></script>
-<input id="skip_Submit" name="skip_Submit" type="submit" value="submit" />
-</td> </tr>
+<form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
+ </td>
+</tr>
 </table>
 </form>
+
 		</footer>
 	</body>
 </html>
