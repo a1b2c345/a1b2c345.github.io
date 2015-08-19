@@ -43,12 +43,11 @@ else                /* send the submitted data */
     else{        
         $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your contact form";
-        mail("lindseycurtis2016@gmail.com", $subject, $message, $from);
+        mail("youremail@yoursite.com", $subject, $message, $from);
         echo "Email sent!";
         }
     }  
-?>					
-
+?>
 		</footer>
 	</body>
 </html>
