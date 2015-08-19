@@ -2,6 +2,9 @@ body {
     margin: 60px auto;
     width: 70%;
     background-color: black;
+    background-image: url(path-to-file/img.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
