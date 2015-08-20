@@ -27,7 +27,8 @@ nav ul, footer ul {
 }
 
 h1{
- font:normal 3em Arial;
+ font-family: 'Raleway', Helvetica, Arial, sans-serif
+ font-size:3em;
  text-align: center;
  color:#d8d8d8;
  text-shadow: 0 1px 0 #989898,
