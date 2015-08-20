@@ -3,7 +3,7 @@ body {
     width: 70%;
     background-image: url("azb.png");
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size: center center;
 }
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
