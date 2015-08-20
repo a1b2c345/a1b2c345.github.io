@@ -1,8 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: black;
-    background-image: url('azb.png');
+    background-image: url("azb.png");
     background-repeat:no-repeat;
     background-position: center center;
 }
