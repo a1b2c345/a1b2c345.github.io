@@ -4,7 +4,7 @@ body {
     background-color: black;
     background-image: url("azb.png");
     background-repeat:no-repeat;
-    background-position: 30% 20%;
+    background-position: 50% 0%;
 }
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
