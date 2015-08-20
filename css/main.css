@@ -6,6 +6,11 @@ body {
     background-repeat:no-repeat;
     background-position: 50% 0%;
 }
+
+@media (max-width: 600px) {
+  background-position: center center;
+}
+
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
     padding: 0px;
