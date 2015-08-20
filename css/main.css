@@ -1,3 +1,11 @@
+@media screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media screen and (min-width: 501px) {
+    {
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -6,13 +14,7 @@ body {
     background-repeat:no-repeat;
     background-position: 50% 0%;
 }
-
-@media screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
 }
-
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
     padding: 0px;
