@@ -3,7 +3,7 @@ body {
     width: 70%;
     background-color: black;
     background-image: url("azb.png");
-    background-repeat:repeat-x;
+    background-repeat:no-repeat;
     background-position: 50% 0%;
 }
 nav ul, footer ul {
