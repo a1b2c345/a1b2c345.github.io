@@ -7,7 +7,12 @@ body {
     background-repeat:no-repeat;
     background-position: 50% 0%;
 }
-
+@media only screen and (max-width: 767px) {
+    
+    body{
+        background-color: blue;
+    }
+}
 nav ul, footer ul {
     font-family:'Times New Roman', 'Times', 'Serif';
     padding: 0px;
