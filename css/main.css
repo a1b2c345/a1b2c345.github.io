@@ -13,7 +13,7 @@ margin-top:30%;
  font-size:4em;
  text-align: center;
  color:transparent;
-text-shadow: 2px 2px 5px #FFFFFF;
+
     
 }
 @media only screen and (max-width: 767px) {
@@ -24,7 +24,7 @@ text-shadow: 2px 2px 5px #FFFFFF;
     h1{
         font-size: 2em;
         margin-top:50%;
-        
+        text-shadow: 2px 2px 2px #FFFFFF;
     }
 }
 nav ul, footer ul {
