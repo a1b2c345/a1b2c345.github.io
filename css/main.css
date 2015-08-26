@@ -31,7 +31,13 @@ color: gray;
 display:none;    }
     
     p1{
-        width:80%;
+    position:absolute;
+    right:42%;
+    width:100%;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.4em; 
     }
 }
 nav ul, footer ul {
