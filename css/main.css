@@ -26,6 +26,10 @@ color: gray;
         margin-top:50%;
         text-shadow: 2px 2px 2px #FFFFFF;
     }
+    footer{
+        
+    color:transparent;
+    }
     
     p1{
         width:50%;
