@@ -50,7 +50,15 @@ nav ul, footer ul {
 
 
 
-p {
+p1{
+    position: absolute;
+    bottom:85%;
+    right:85%;
+    text-align: left;
+    color: #555555;
+    text-shadow: 0px 2px 3px #707070;
+    font-size: 1em;
+    line-height: 1.4em; 
 
 }
 
