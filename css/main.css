@@ -129,6 +129,7 @@ nav ul, footer ul {
 footer{
     position:fixed;
     bottom:10%;
+    text-align: center;
  
 }
 
