@@ -8,7 +8,7 @@ body {
     background-position: 50% 0%;
 }
 h1{
-margin-top:30%;
+margin-top:10%;
 color: gray;
         text-shadow: 2px 2px 2px #FFFFFF;
 
@@ -26,7 +26,9 @@ p{
     color: #C0C0C0;
     text-align: center;
     font-size: 1em;
-    line-height: 1.4em; 
+    line-height: 1.4em;
+    font: 'Oleo Script', Helvetica, sans-serif;
+ 
 
 }
 
@@ -125,10 +127,7 @@ nav ul, footer ul {
 
 
 footer{
-    position: absolute;
     bottom:10%;
-    right:5%;
-    text-align: center;
  
 }
 
