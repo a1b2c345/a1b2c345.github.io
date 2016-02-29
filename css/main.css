@@ -55,8 +55,10 @@ display:none;    }
     }
 }
 #menu-outer {
-    height: 84px;
-    background: url(images/bar-bg.jpg) repeat-x;
+    height: 20%;
+background-color: #111;
+
+
 }
 
 .table {
@@ -64,19 +66,14 @@ display:none;    }
     margin: 0 auto;
 }
 
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position:fixed;
-    top:0;
-    width: 100%;
-}
-
+ul#horizontal-list {
+    min-width: 20%;
+    list-style: none;
+    padding-top: 10%;
+    }
+ul#horizontal-list li {
+        display: inline;
+    }
 li {
     float: left;
 }
@@ -85,13 +82,13 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10% 16px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #222;
 }
 
 nav ul, footer ul {
