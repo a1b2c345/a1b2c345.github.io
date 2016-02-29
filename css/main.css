@@ -60,8 +60,8 @@ background-color: #111;
     }
 }
 #menu-outer {
-    height: 10%;
-
+    bottom: 10%;
+    position:fixed;
 
 }
 
