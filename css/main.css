@@ -1,10 +1,60 @@
+
 body {
-    margin:0;
-    padding:0;
-    background:#fff;
-    font-family:'Montserrat',sans-serif;
-    font-size:12px;
+    margin: 60px auto;
+    width: 70%;
+    background-color: black;
+    background-image: url("azb.png");
+    background-repeat:no-repeat;
+    background-position: 50% 0%;
 }
+h1{
+margin-top:30%;
+color: gray;
+        text-shadow: 2px 2px 2px #FFFFFF;
+
+ font-family: Georgia, serif;
+ font-size:4em;
+ text-align: center;
+
+    
+}
+
+p1{
+    position:absolute;
+    right:42%;
+    width: 20%;
+    color: #555555;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.4em; 
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+    body{
+        background-color: black;
+    }
+    h1{
+        font-size: 2em;
+        margin-top:50%;
+        text-shadow: 2px 2px 2px #FFFFFF;
+    }
+    footer{
+        
+display:none;    }
+    
+    p1{
+    position:absolute;
+    right:30%;
+    width:50%;
+    color: #555555;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.4em; 
+    }
+}
+
 ul {
     margin:0;
     padding:0;
@@ -87,10 +137,48 @@ li {
         margin:5px 0;
     }
 }
-.content {
-    width:100%;
-    margin-top:200px;
-    font-size:20px;
-    color#333;
-    text-align: center;
+footer ul {
+    font-family:'Times New Roman', 'Times', 'Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+.navigation{
+    color:gray;
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+
+.navigation .item{
+    position:absolute;
+}
+
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom:5%;
+    right:5%;
+    text-align: right;
+    color: #555555;
+    text-shadow: 0px 2px 3px #707070;
+    font-size: 1em;
+    line-height: 1.4em;    
+}
+
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
 }
