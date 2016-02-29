@@ -83,10 +83,10 @@ li a {
     color: white;
     text-align: center;
     color: gray;
-        text-shadow: 2px 2px 2px #FFFFFF;
+        text-shadow: 1px 1px 1px #FFFFFF;
 
     font-family: Georgia, serif;
-    font-size:1.5em;
+    font-size:.5em;
     padding: 10% 30px;
     text-decoration: none;
 }
