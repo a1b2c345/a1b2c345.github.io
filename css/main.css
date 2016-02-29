@@ -44,7 +44,8 @@ p1{
         
 display:none;    }
     
-    p1{
+ p1{
+background-color: #111;
     position:absolute;
     right:10%;
     width:80%;
@@ -53,7 +54,7 @@ display:none;    }
     font-size: 1em;
     line-height: 1.4em; 
     }
-}*/
+}
 #menu-outer {
     height: 10%;
 
