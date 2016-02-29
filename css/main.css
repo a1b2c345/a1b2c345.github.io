@@ -75,14 +75,14 @@ ul#horizontal-list li {
     }
 li {
     float: left;
-    width:30%;
+    width:25%;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10% 20px;
+    padding: 10% 30px;
     text-decoration: none;
 }
 
